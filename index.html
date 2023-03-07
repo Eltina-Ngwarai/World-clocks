@@ -7,39 +7,34 @@
     <link rel="stylesheet" href="css/styles.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.37/moment-timezone-with-data-1970-2030.min.js"></script>
-    <title>World clock - Eltina Ngwarai</title>
+    <title>World Clock - Matt Delac</title>
   </head>
   <body>
     <div class="container">
       <h1>World Clock</h1>
 
-      <select name="" id="">
-        <option value="">Choose a city</option>
-        <option value="">Hamburg🇩🇪</option>
-        <option value="">Sydney🇦🇺</option>
-        <option value="">Harare🇿🇼</option>
+      <select id="city">
+        <option value="">Select a city..</option>
+        <option value="Europe/London">London🏴󠁧󠁢󠁥󠁮󠁧󠁿</option>
+        <option value="America/New_York">New York🇺🇸</option>
+        <option value="Africa/Harare">Harare🇿🇼</option>
       </select>
 
-      <div class="city" id="hamburg">
-        <div>
-          <h2>Hamburg🇩🇪</h2>
-          <div class="date"></div>
+      <div id="cities">
+        <div class="city" id="hamburg">
+          <div>
+            <h2>Hamburg🇩🇪</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
         </div>
-        <div class="time"><small> </small></div>
-      </div>
-      <div class="city" id="sydney">
-        <div>
-          <h2>Sydney🇦🇺</h2>
-          <div class="date">March 2023</div>
+        <div class="city" id="paris">
+          <div>
+            <h2>Paris🇫🇷</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
         </div>
-        <div class="time">00:38 <small> AM </small></div>
-      </div>
-      <div class="city" id="harare">
-        <div>
-          <h2>Harare🇿🇼</h2>
-          <div class="date">March 6 2023</div>
-        </div>
-        <div class="time">13:38 <small> PM </small></div>
       </div>
     </div>
     <footer>
