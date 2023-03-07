@@ -5,44 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
-    <title>World clock by Eltina Ngwarai</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.37/moment-timezone-with-data-1970-2030.min.js"></script>
+    <title>World clock - Eltina Ngwarai</title>
   </head>
   <body>
     <div class="container">
       <h1>World Clock</h1>
+
       <select name="" id="">
         <option value="">Choose a city</option>
         <option value="">Hamburg🇩🇪</option>
         <option value="">Sydney🇦🇺</option>
         <option value="">Harare🇿🇼</option>
       </select>
-      <div class="city">
+
+      <div class="city" id="hamburg">
         <div>
-        <h2>Hamburg🇩🇪</h2>
-        <div class="date">March 6 2023</div>
-    </div>
-        <div class="time">14:38 <small> PM </small></div>
-    </div>
-    <div class="city">
+          <h2>Hamburg🇩🇪</h2>
+          <div class="date"></div>
+        </div>
+        <div class="time"><small> </small></div>
+      </div>
+      <div class="city" id="sydney">
         <div>
-        <h2>Sydney🇦🇺</h2>
-        <div class="date">March  2023</div>
-    </div>
+          <h2>Sydney🇦🇺</h2>
+          <div class="date">March 2023</div>
+        </div>
         <div class="time">00:38 <small> AM </small></div>
-    </div>
-    <div class="city">
+      </div>
+      <div class="city" id="harare">
         <div>
-        <h2>Harare🇿🇼</h2>
-        <div class="date">March 6 2023</div>
-    </div>
+          <h2>Harare🇿🇼</h2>
+          <div class="date">March 6 2023</div>
+        </div>
         <div class="time">13:38 <small> PM </small></div>
+      </div>
     </div>
-</div>
     <footer>
       This project was coded by <strong>Eltina Ngwarai </strong>and is
       <a href="https://github.com/elty-annie/World-clocks" target="_blank"
-        >open sourced on Github</a>
-    
+        >open sourced on Github</a
+      >
     </footer>
     <script src="javascript/index.js"></script>
   </body>
