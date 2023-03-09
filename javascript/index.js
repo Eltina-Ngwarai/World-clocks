@@ -7,7 +7,7 @@ function updateTime() {
 
     hamburgDateElement.innerHTML = hamburgTime.format("MMMM	Do YYYY");
     hamburgTimeElement.innerHTML = hamburgTime.format(
-      "h:mm:ss [<small>]A[</small>]"
+      "H:mm:ss [<small>]A[</small>]"
     );
   }
   let parisElement = document.querySelector("#paris");
@@ -36,7 +36,7 @@ function updateCity(event) {
         <h2>${cityName}</h2>
         <div class="date">${cityTime.format("MMMM	Do YYYY")}</div>
       </div>
-      <div class="time">${cityTime.format("h:mm:ss")} <small>${cityTime.format(
+      <div class="time">${cityTime.format("H:mm:ss")} <small>${cityTime.format(
     "A"
   )}</small></div>
     </div>

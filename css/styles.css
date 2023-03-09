@@ -1,24 +1,27 @@
 body {
-    background: #f9f7fe;
-    font-family: sans-serif;
+    background: #f0fbff;
+    font-family: 'PT Serif', serif;
 }
 
 h1 {
     text-align: center;
-    font-size: 36px;
-    font-family: sans-serif;
+    font-size: 48px;
+    font-family: 'Vollkorn', serif;
+    color: #2e94b9;
 }
 h2 {
     margin: 0 0 5px;
     font-size: 24px;
+    color: #475053;
 }
 select {
     display: block;
     width: 100%;
-    border-radius: 4px;
+    border-radius: 8px;
     padding: 10px;
     font-size: 18px;
     color:  rgba(0, 0, 0, 0.6);
+    opacity: 0.7;
 }
 .container {
     max-width: 600px;
@@ -26,7 +29,7 @@ select {
   background: white;
   padding: 30px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  border-radius: 10px;
+  border-radius: 50px;
 }
 
 .city {
@@ -43,11 +46,13 @@ select {
 
 .date{
     opacity: 0.7;
+    color: #475053;
 }
 
 .time {
     font-size: 48px;
     font-weight: bold;
+    color: #475053;
 }
 
 .time small {
